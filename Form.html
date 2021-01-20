@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(matrial/back.jpg);
+            background-size: 1200px 1200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .a {
+            width: 500px;
+            height: 1000px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top: 30px;
+            left: 25%;
+            border-radius: 2%;
+            opacity: 1;
+        }
+        
+        .b {
+            width: 500px;
+            height: 200px;
+            border-radius: 2% 2% 0 0;
+        }
+        
+        .c {
+            font-size: 20px;
+            position: relative;
+            top: -130px;
+            left: 180px;
+            color: rgb(221, 218, 218);
+        }
+        
+        .d {
+            font-size: 17px;
+            position: relative;
+            top: -140px;
+            left: 150px;
+            color: rgb(221, 220, 220);
+        }
+        
+        .e {
+            border-color: unset;
+            border-radius: 10px;
+            width: 300px;
+            height: 20px;
+        }
+        
+        label {
+            color: rgb(177, 177, 177);
+        }
+        
+        form {
+            margin: 20px;
+            text-align: center;
+        }
+        
+         ::placeholder {
+            color: rgb(202, 202, 202);
+        }
+        
+        .h {
+            border-color: unset;
+            resize: both;
+        }
+        
+        .k {
+            color: rgb(177, 177, 177);
+            position: relative;
+            top: -65px;
+            left: 0px;
+        }
+        
+        button {
+            background-color: unset;
+            border-radius: 5px;
+            border-color: rgb(230, 230, 230);
+            color: rgb(0, 127, 201);
+            width: 90px;
+            height: 30px;
+            font-family: poppins;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        button:hover {
+            box-shadow: 0 5px 50px rgb(190, 190, 190) inset, 0 5px 50px rgb(173, 173, 173), 0 5px 50px rgb(192, 192, 192) inset, 0 5px 50px rgb(190, 190, 190);
+            transition: 2s;
+        }
+        
+        .e:hover {
+            border-color: unset;
+        }
+        
+        .k:hover {
+            border-color: unset;
+        }
+        
+        .w {
+            color: rgb(177, 177, 177);
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        
+        .z {
+            color: rgb(206, 206, 206);
+            position: relative;
+            top: 0px;
+            left: 100px;
+        }
+        
+        .q {
+            text-align: left;
+            position: relative;
+            top: 0px;
+            left: 100px;
+        }
+        
+        .kk {
+            position: relative;
+            top: 0px;
+            left: 100px;
+        }
+        
+        .zz {
+            color: rgb(153, 153, 153);
+            position: relative;
+            top: 0px;
+            left: 100px;
+        }
+        
+        .zs {
+            position: relative;
+            top: 0px;
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <img class="b" src="matrial/laptop.jpg">
+        <p class="c">MSP Tech Club</p>
+        <p class="d">Cairo Univesity IT Committee</p>
+        <form>
+            <label>Full Name:</label>
+            <input class="e" type="text" placeholder="Enter Full Name" required><br><br><br>
+
+            <label>Email:</label>
+            <input class="e" type="email" placeholder="Enter mail address" required><br><br><br>
+
+            <label>Phone:</label>
+            <input class="e" type="text" placeholder="Enter Phone number" required><br><br><br>
+
+            <label class="k">Message:</label>
+            <textarea class="h" placeholder="Your Comment" rows="6" cols="30"></textarea><br><br><br>
+            <label>Birthday:</label>
+            <input class="v" type="date"><br><br><br>
+            <label>Fevorit Color:</label>
+            <input class="v" type="color">
+        </form>
+        <input class="q" type="radio" name="your committee" value="it">
+        <lable class="z">IT Committee</lable><br>
+        <input class="q" type="radio" name="your committee" value="it">
+        <lable class="z">FR Committee</lable><br>
+        <input class="q" type="radio" name="your committee" value="it">
+        <lable class="z">PR Committee</lable><br>
+        <input class="q" type="radio" name="your committee" value="it">
+        <lable class="z">Design Committee</lable><br>
+        <input class="q" type="radio" name="your committee" value="it">
+        <lable class="z">marketing Committee</lable><br>
+        <input class="q" type="radio" name="your committee" value="it">
+        <lable class="z">Logistics Committee</lable><br><br>
+        <input class="kk" type="checkbox">
+        <lable class="zz">Remember Me</lable><br><br><br><br>
+        <button class="zs">Submit</button>
+    </div>
+</body>
+
+</html>
