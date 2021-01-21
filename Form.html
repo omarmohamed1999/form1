@@ -4,18 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
     <style>
-        body {
-            background-image: url(matrial/back.jpg);
-            background-size: 1200px 1200px;
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            background-image: url(back.jpg);
             background-size: cover;
+            background-repeat: no-repeat;
             background-position: center;
         }
         
         .a {
             width: 500px;
-            height: 1000px;
+            height: 1100px;
             background-color: rgb(255, 255, 255);
             position: relative;
             top: 30px;
@@ -143,12 +150,17 @@
             top: 0px;
             left: 200px;
         }
+        
+        .dd {
+            position: relative;
+            left: 80px;
+        }
     </style>
 </head>
 
 <body>
     <div class="a">
-        <img class="b" src="matrial/laptop.jpg">
+        <img class="b" src="laptop.jpg">
         <p class="c">MSP Tech Club</p>
         <p class="d">Cairo Univesity IT Committee</p>
         <form>
@@ -168,6 +180,7 @@
             <label>Fevorit Color:</label>
             <input class="v" type="color">
         </form>
+        <label class="dd">What is your committee</label><br><br>
         <input class="q" type="radio" name="your committee" value="it">
         <lable class="z">IT Committee</lable><br>
         <input class="q" type="radio" name="your committee" value="it">
